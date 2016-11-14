@@ -30,7 +30,7 @@ article, aside, dialog, figure, footer, header, hgroup, nav, section {
 display : block; }
 
 body {
-	font: 100%/1.5 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
+	font: 100% "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
 	color: #444;
 	background: #fff;
 }
@@ -38,12 +38,14 @@ body {
 h1 {
 	color: #222;
 	font-size: 2em; /* 32px */
-	margin-bottom: 1.33em;
+	line-height: 1.3333;
+	margin-bottom: 1.3333em;
 }
 
 h2 {
 	color: #222;
 	font-size: 1.5em; /* 24px */
+	line-height: 1;
 	margin-bottom: 1em;
 }
 
