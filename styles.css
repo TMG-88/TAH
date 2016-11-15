@@ -38,14 +38,14 @@ body {
 h1 {
 	color: #222;
 	font-size: 2em; /* 32px */
-	line-height: 1.3333;
-	margin-bottom: 1.3333em;
+	line-height: .75; /* 24px */
+	margin-bottom: .75em; 
 }
 
 h2 {
 	color: #222;
 	font-size: 1.5em; /* 24px */
-	line-height: 1;
+	line-height: 1; 
 	margin-bottom: 1em;
 }
 
