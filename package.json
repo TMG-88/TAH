@@ -1,0 +1,22 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "github homework",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TMG-88/hello-world.git"
+  },
+  "author": "TMG-88",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TMG-88/hello-world/issues"
+  },
+  "homepage": "https://github.com/TMG-88/hello-world#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
