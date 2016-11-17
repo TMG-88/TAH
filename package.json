@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/TMG-88/hello-world#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-header": "^1.8.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-lint": "^1.3.2",
+    "gulp-sourcemaps": "^2.2.0"
   }
 }
