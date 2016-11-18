@@ -93,7 +93,7 @@ rules:
     -
       style: single
   shorthand-values: 1
-  single-line-per-selector: 1
+  single-line-per-selector: 0
   space-after-comma: 1
   space-before-colon: 1
   space-after-colon: 1

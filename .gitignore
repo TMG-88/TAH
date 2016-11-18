@@ -5,4 +5,4 @@ build
 dist
 gulpfile.js
 css
-*.yml
+.ubs-sass-lint.yml
