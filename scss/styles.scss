@@ -9,15 +9,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 
 :focus {
-	outline: 0;
+  outline: 0;
 }
 
 table {
-	border-collapse: collapse;
+  border-collapse: collapse;
 	border-spacing: 0;
 }
 
@@ -26,16 +26,16 @@ article, aside, dialog, figure, footer, header, hgroup, nav, section {
 }
 
 body {
-	font: 100% 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Helvetica, Arial, sans-serif;
-	color: #444;
-	background: #fff;
+  font: 100% 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Helvetica, Arial, sans-serif;
+  color: #444;
+  background: #fff;
 }
 
 h1 {
-	color: #222;
-	font-size: 2em;  /* 32px */
-	line-height: .75;  /* 24px */
-	margin-bottom: .75em; 
+  color: #222;
+  font-size: 2em;/* 32px */
+  line-height: .75;/* 24px */
+  margin-bottom: .75em; 
 
   section & {
     font-size: 1.5em;
@@ -45,16 +45,16 @@ h1 {
 }
 
 h2 {
-	color: #222;
-	font-size: 1.5em; /* 24px */
-	line-height: 1; 
-	margin-bottom: 1em;
+  color: #222;
+  font-size: 1.5em; /* 24px */
+  line-height: 1;
+  margin-bottom: 1em;
 }
 
 p {
-	font-size: 1em; /* = 16px */
-	line-height: 1.5; /* = 24px */
-	margin: 0 0 1.5em;
+  font-size: 1em; /* = 16px */
+  line-height: 1.5; /* = 24px */
+  margin: 0 0 1.5em;
 
   header & {
     font-size: .875em;  /* = 14px */
