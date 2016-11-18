@@ -31,7 +31,7 @@ gulp.task('styles:dev', function() {
     .pipe(header(banner, {pkg : pkg}))
     .pipe(sourcemaps.write('.')) 
     .pipe(gulp.dest('./css'))
-    .pipe(notify(notifyMsg));
+    //.pipe(notify(notifyMsg));
 });
 
 gulp.task('default', ['styles:dev']);

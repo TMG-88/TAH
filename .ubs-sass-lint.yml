@@ -1,6 +1,6 @@
 options:
   formatter: 'stylish'
-  'merge-default-rules': true
+  'merge-default-rules': false
 rules:
   attribute-quotes: 
     - 1
@@ -63,7 +63,7 @@ rules:
   nesting-depth: 1
   no-color-keywords: 1
   no-color-literals: 0
-  no-css-comments: 1
+  no-css-comments: 0
   no-debug: 1
   no-duplicate-properties: 1
   no-empty-rulesets: 1
@@ -93,7 +93,7 @@ rules:
     -
       style: single
   shorthand-values: 1
-  single-line-per-selector: 1
+  single-line-per-selector: 0
   space-after-comma: 1
   space-before-colon: 1
   space-after-colon: 1
