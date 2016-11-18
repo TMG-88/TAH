@@ -1,6 +1,6 @@
 options:
   formatter: 'stylish'
-  'merge-default-rules': true
+  'merge-default-rules': false
 rules:
   attribute-quotes: 
     - 1
