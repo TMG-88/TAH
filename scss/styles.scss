@@ -7,7 +7,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	outline: 0;
 	background: transparent;
 	}
-	
+  
 ol, ul {
 	list-style: none;
 }
@@ -22,7 +22,7 @@ table {
 }
 
 article, aside, dialog, figure, footer, header, hgroup, nav, section {
-  display : block; 
+  display: block; 
 }
 
 body {
@@ -54,7 +54,7 @@ h2 {
 p {
 	font-size: 1em; /* = 16px */
 	line-height: 1.5; /* = 24px */
-	margin: 0 0 1.5em 0;
+	margin: 0 0 1.5em;
 
   header & {
     font-size: .875em;  /* = 14px */
@@ -63,8 +63,8 @@ p {
 }
 
 section {
-	width: 75%;
-	margin: 3em auto;
+  width: 75%;
+  margin: 3em auto;
 }
 
 footer small {

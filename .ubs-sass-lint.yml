@@ -63,7 +63,7 @@ rules:
   nesting-depth: 1
   no-color-keywords: 1
   no-color-literals: 0
-  no-css-comments: 1
+  no-css-comments: 0
   no-debug: 1
   no-duplicate-properties: 1
   no-empty-rulesets: 1
