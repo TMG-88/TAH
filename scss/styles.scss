@@ -1,3 +1,9 @@
+$color-main: #444;
+$color-white: #fff;
+$color-header: #222;
+
+$font-sans: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Helvetica, Arial, sans-serif;
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0;
@@ -26,13 +32,13 @@ article, aside, dialog, figure, footer, header, hgroup, nav, section {
 }
 
 body {
-  font: 100% 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Helvetica, Arial, sans-serif;
-  color: #444;
-  background: #fff;
+  font: 100% $font-sans;
+  color: $color-main;
+  background: $color-white;
 }
 
 h1 {
-  color: #222;
+  color: $color-header;
   font-size: 2em;/* 32px */
   line-height: .75;/* 24px */
   margin-bottom: .75em; 
@@ -45,7 +51,7 @@ h1 {
 }
 
 h2 {
-  color: #222;
+  color: $color-header;
   font-size: 1.5em; /* 24px */
   line-height: 1;
   margin-bottom: 1em;
