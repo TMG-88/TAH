@@ -1,6 +1,7 @@
 $color-main: #444;
 $color-white: #fff;
 $color-header: #222;
+$color-grey: #ccc;
 
 $font-sans: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Helvetica, Arial, sans-serif;
 
@@ -42,12 +43,6 @@ h1 {
   font-size: 2em;  /* 32px */
   line-height: .75;  /* 24px */
   margin-bottom: .75em; 
-
-  section & {
-    font-size: 1.5em;
-    line-height: 1;
-    margin-bottom: 1em;
-  }
 }
 
 h2 {
@@ -63,9 +58,17 @@ p {
   margin: 0 0 1.5em;
 
   header & {
-    font-size: .875em;  /* = 14px */
+    color: $color-white;
+    font: {
+      size: .875em;  /* = 14px */
+      weight: bold;
+    }
     line-height: 1.714;
   }
+}
+
+header {
+  background-color: $color-main;
 }
 
 section {
