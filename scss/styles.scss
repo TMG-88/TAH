@@ -58,10 +58,8 @@ p {
   margin: 0 0 1.5em;
 
   header & {
-    font: {
-      size: .875em;  /* = 14px */
-      weight: bold;
-    }
+    font-size: .875em;  /* = 14px */
+    font-weight: bold;
     line-height: 1.714;
   }
 }
