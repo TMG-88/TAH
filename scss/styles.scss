@@ -39,8 +39,8 @@ body {
 
 h1 {
   color: $color-header;
-  font-size: 2em;/* 32px */
-  line-height: .75;/* 24px */
+  font-size: 2em;  /* 32px */
+  line-height: .75;  /* 24px */
   margin-bottom: .75em; 
 
   section & {
@@ -52,14 +52,14 @@ h1 {
 
 h2 {
   color: $color-header;
-  font-size: 1.5em; /* 24px */
+  font-size: 1.5em;  /* 24px */
   line-height: 1;
   margin-bottom: 1em;
 }
 
 p {
-  font-size: 1em; /* = 16px */
-  line-height: 1.5; /* = 24px */
+  font-size: 1em;  /* = 16px */
+  line-height: 1.5;  /* = 24px */
   margin: 0 0 1.5em;
 
   header & {
