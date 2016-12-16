@@ -51,7 +51,7 @@ a {
     outline: none;
     color: #3da2c4;
   }
-  
+
   &:hover {
     color: #30829e;
   }
@@ -89,12 +89,12 @@ p {
 }
 
 .sidebar {
-	float: right;
-	width: 40%;
-	margin: 0 0 30px;
+  float: right;
+  width: 40%;
+  margin: 0 0 30px;
 }
 
-footer[role="contentinfo"] {
+footer[role='contentinfo'] {
   clear: both;
 }
 
@@ -134,7 +134,7 @@ footer[role="contentinfo"] {
 /* header 
 ----------------------------------------------------- */
 
-header[role="banner"] {
+header[role='banner'] {
   border-bottom: 3px solid rgba(68, 68, 68, .15);
   margin-bottom: em(24, 16);
 }
@@ -143,31 +143,31 @@ header[role="banner"] {
 
 #logo {
   a {
-	  width: 14%;
-	  float: left;
+    width: 14%;
+    float: left;
   }
 
- p {
+  p {
     width: 83%;
-	  float: right;
-	  color: #222;
-	  font-size: em(32, 16);
-	  font-weight: normal; 
+    float: right;
+    color: #222;
+    font-size: em(32, 16);
+    font-weight: normal;
     letter-spacing: 1px;
-  	line-height: line(24, 32);
-  	padding: em(64, 32) 0 0 3%;
-  }
+    line-height: line(24, 32);
+    padding: em(64, 32) 0 0 3%;
+  }  
 }
 
 /* navigation  */
 
 nav[role='navigation'] {
-  margin: em(24, 16) 0;	
+  margin: em(24, 16) 0;
   
   ul li {
     float: left;
     width: 16.66666666666667%;
-	  
+    
     & a {
       float: left;
       width: 100%;
@@ -181,20 +181,20 @@ nav[role='navigation'] {
         transform: uppercase;
       }
       letter-spacing: 3px;
-	    line-height: line(20, 16);
+      line-height: line(20, 16);
 	    
-	    strong {
-	      display: block;
+      strong {
+        display: block;
         padding: 0;
         color: rgba(68, 68, 68, .5);
-        -webkit-transition: color 0.2s ease-in-out;
-        -moz-transition: color 0.2s ease-in-out;
-        -o-transition: color 0.2s ease-in-out;
-        transition: color 0.2s ease-in-out;
+        -webkit-transition: color .2s ease-in-out;
+        -moz-transition: color .2s ease-in-out;
+        -o-transition: color .2s ease-in-out;
+        transition: color .2s ease-in-out;
 	    }
 	    
-	    em {
-	      color: rgba(78, 68, 60, .35);
+      em {
+        color: rgba(78, 68, 60, .35);
         display: block;
         font: {
           style: normal;
@@ -203,20 +203,21 @@ nav[role='navigation'] {
         }
         letter-spacing: 0;
         text-transform: none;
-        -webkit-transition: color 0.2s ease-in-out;
-        -moz-transition: color 0.2s ease-in-out;
-        -o-transition: color 0.2s ease-in-out;
-        transition: color 0.2s ease-in-out;
+        -webkit-transition: color .2s ease-in-out;
+        -moz-transition: color .2s ease-in-out;
+        -o-transition: color .2s ease-in-out;
+        transition: color .2s ease-in-out;
 	    }
-	    
-	    &:hover strong {
+      
+      &:hover strong {
         color: #444;
       }
       
       &:hover em {
-	      color: rgba(68, 68, 68, .7);
+        color: rgba(68, 68, 68, .7);
 	    }
     }
+
     &.active a em, &.active a strong {
       color: $color-text;
     }
@@ -227,7 +228,7 @@ nav[role='navigation'] {
 
 .main h1 {
   color: #444;
-	font-size: em(24, 16);
+  font-size: em(24, 16);
   line-height: line(24, 24); 
   margin-bottom: em(24, 24);
 }
@@ -244,12 +245,12 @@ nav[role='navigation'] {
   font-size: em(14);
   text-align: center;
   -webkit-column-count: 2;
-	-moz-column-count: 2;
-	column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
   margin-bottom: 24px;
 
   li {
-    margin: 0 0 6px 0;
+    margin: 0 0 6px;
   }
 }
 
@@ -273,9 +274,9 @@ nav[role='navigation'] {
 
   ul {
     margin-bottom: 0;
-
-     li:last-child {
-        margin-bottom: 0;
+    
+    li:last-child {
+      margin-bottom: 0;
     }
   }
 }
@@ -306,12 +307,12 @@ footer[role='contentinfo'] {
 
     img {
       border: none;
-	    opacity: .4;
+      opacity: .4;
       vertical-align: middle;
-	    -webkit-transition: opacity .2s ease-in-out;
-    	-moz-transition: opacity .2s ease-in-out;
-	    -o-transition: opacity .2s ease-in-out;
-	    transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -o-transition: opacity .2s ease-in-out;
+      transition: opacity .2s ease-in-out;
     }
 
     &:hover img {
@@ -324,9 +325,9 @@ footer[role='contentinfo'] {
 /* misc 
 ----------------------------------------------------- */
 .group:after {
-	content: '.';
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
