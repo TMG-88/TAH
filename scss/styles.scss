@@ -40,7 +40,7 @@ article, aside, dialog, figure, footer, header, hgroup, nav, section {
 ----------------------------------------------------- */
 
 body {
-  font: 100% "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
+  font: 100% 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Helvetica, Arial, sans-serif;
   color: #444;
   background: #fff;
 }
@@ -48,9 +48,10 @@ body {
 a {
   &:link, &:active {
     font-weight: normal;
-	  outline: none;
-	  color: #3da2c4;
+    outline: none;
+    color: #3da2c4;
   }
+  
   &:hover {
     color: #30829e;
   }
@@ -72,25 +73,25 @@ p {
 /* layout structure */
 
 #wrap {
-	max-width: 960px;
-	margin: em(24, 16) auto;
+  max-width: 960px;
+  margin: em(24, 16) auto;
   padding: 0 30px;
 }
 
 .main {
-	float: left;
-	width: 60%;
-	margin: 0 0 30px 0;
-	padding: 0 50px 0 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  float: left;
+  width: 60%;
+  margin: 0 0 30px;
+  padding: 0 50px 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .sidebar {
 	float: right;
 	width: 40%;
-	margin: 0 0 30px 0;
+	margin: 0 0 30px;
 }
 
 footer[role="contentinfo"] {
@@ -100,8 +101,8 @@ footer[role="contentinfo"] {
 /* special  */
 
 #special {
-  margin: 0 0 20px 0;
-  padding: 10px 30px 16px 30px;
+  margin: 0 0 20px;
+  padding: 10px 30px 16px;
   line-height: 1.5;
   color: rgba(255, 255, 255, .5);
   background-color: #6a8087;
@@ -112,7 +113,7 @@ footer[role="contentinfo"] {
     font-weight: normal;
 
     strong {
-      font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+      font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
       font-size: em(14); 
       font-weight: normal;
       text-transform: uppercase;
@@ -134,7 +135,7 @@ footer[role="contentinfo"] {
 ----------------------------------------------------- */
 
 header[role="banner"] {
-  border-bottom: 3px solid rgba(68, 68, 68, 0.15);
+  border-bottom: 3px solid rgba(68, 68, 68, .15);
   margin-bottom: em(24, 16);
 }
 
@@ -160,7 +161,7 @@ header[role="banner"] {
 
 /* navigation  */
 
-nav[role="navigation"] {
+nav[role='navigation'] {
   margin: em(24, 16) 0;	
   
   ul li {
@@ -171,7 +172,7 @@ nav[role="navigation"] {
       float: left;
       width: 100%;
       font: {
-        family: "Gill Sans", Helvetica, Arial, sans-serif;
+        family: 'Gill Sans', Helvetica, Arial, sans-serif;
         weight: bold;
         size: em(16, 16);
       }
@@ -185,7 +186,7 @@ nav[role="navigation"] {
 	    strong {
 	      display: block;
         padding: 0;
-        color: rgba(68, 68, 68, 0.5);
+        color: rgba(68, 68, 68, .5);
         -webkit-transition: color 0.2s ease-in-out;
         -moz-transition: color 0.2s ease-in-out;
         -o-transition: color 0.2s ease-in-out;
@@ -193,12 +194,12 @@ nav[role="navigation"] {
 	    }
 	    
 	    em {
-	      color: rgba(78, 68, 60, 0.35);
+	      color: rgba(78, 68, 60, .35);
         display: block;
         font: {
-         style: normal;
-         size: em(16, 16);
-         weight: normal;
+          style: normal;
+          size: em(16, 16);
+          weight: normal;
         }
         letter-spacing: 0;
         text-transform: none;
@@ -212,8 +213,8 @@ nav[role="navigation"] {
         color: #444;
       }
       
-	    &:hover em {
-	      color: rgba(68, 68, 68, 0.7);
+      &:hover em {
+	      color: rgba(68, 68, 68, .7);
 	    }
     }
     &.active a em, &.active a strong {
@@ -224,12 +225,12 @@ nav[role="navigation"] {
 
 /* main styles */
 
-  .main h1 {
-    color: #444;
-	  font-size: em(24, 16);
-    line-height: line(24, 24); 
-    margin-bottom: em(24, 24);
-  }
+.main h1 {
+  color: #444;
+	font-size: em(24, 16);
+  line-height: line(24, 24); 
+  margin-bottom: em(24, 24);
+}
 
 .lead {
   font-size: em(20, 16);
@@ -253,13 +254,13 @@ nav[role="navigation"] {
 }
 
 .sidebar h2 {
-    color: #222;
-    font-size: em(15); 
-    font-style: normal;
-    line-height: line(24, 14);
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: center;
+  color: #222;
+  font-size: em(15); 
+  font-style: normal;
+  line-height: line(24, 14);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .sidebar .wjp {
@@ -282,7 +283,7 @@ nav[role="navigation"] {
 /* footer
 ----------------------------------------------------- */
 
-footer[role="contentinfo"] {
+footer[role='contentinfo'] {
   text-align: center;
   
   small {
@@ -297,7 +298,7 @@ footer[role="contentinfo"] {
 
   li {
     display: inline;
-    padding: 0 10px 0;
+    padding: 0 10px;
   }
 
   li a {
@@ -314,7 +315,7 @@ footer[role="contentinfo"] {
     }
 
     &:hover img {
-        opacity: .85;
+      opacity: .85;
     }
   }
 }
@@ -323,10 +324,9 @@ footer[role="contentinfo"] {
 /* misc 
 ----------------------------------------------------- */
 .group:after {
-	content: ".";
+	content: '.';
 	display: block;
 	height: 0;
 	clear: both;
 	visibility: hidden;
 }
-
