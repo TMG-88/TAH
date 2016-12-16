@@ -24,7 +24,7 @@ rules:
       filename-extension: false
   empty-args: 1
   empty-line-between-blocks: 
-   - 1
+   - 0
    -
       include: true
       allow-single-line-rulesets: true
