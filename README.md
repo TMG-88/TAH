@@ -1,6 +1,6 @@
 # hello-world
 
-Hi, all my Buddies!
+Hi all my Buddies!
 
 This website is just for learning GitHub. Not! It is also a homage to The Thrilling Adventure Hour.
 

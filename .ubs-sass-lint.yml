@@ -24,7 +24,7 @@ rules:
       filename-extension: false
   empty-args: 1
   empty-line-between-blocks: 
-   - 1
+   - 0
    -
       include: true
       allow-single-line-rulesets: true
@@ -60,7 +60,7 @@ rules:
     - 1
     - allow-leading-underscore: false
     - convention: hyphenatedlowercase
-  nesting-depth: 1
+  nesting-depth: 0
   no-color-keywords: 1
   no-color-literals: 0
   no-css-comments: 0
