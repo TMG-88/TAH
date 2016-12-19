@@ -239,6 +239,15 @@ nav[role='navigation'] {
   margin: 0 0 em(24, 20);
 }
 
+figure {
+  margin: 0;
+  padding-bottom: 24px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
 /* sidebar styles */
 
 .sidebar ul {
