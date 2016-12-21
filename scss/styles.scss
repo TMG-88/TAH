@@ -135,7 +135,7 @@ footer[role='contentinfo'] {
 ----------------------------------------------------- */
 
 header[role='banner'] {
-  border-bottom: 3px solid rgba(68, 68, 68, .15);
+  border-bottom: 2px solid rgba(68, 68, 68, .1);
   margin-bottom: em(24, 16);
 }
 
@@ -233,6 +233,10 @@ nav[role='navigation'] {
   margin-bottom: em(24, 24);
 }
 
+.main h3 {
+  font-size: em(18);
+}
+
 .lead {
   font-size: em(20, 16);
   line-height: lht(24, 20);
@@ -242,9 +246,17 @@ nav[role='navigation'] {
 article {
   margin-bottom: 72px;
 
+  &:last-child {
+    margin-bottom: 36px;
+  }
+
   small {
     font-size: em(14, 16);  
     line-height: line(24, 14); 
+  }
+
+  header p {
+    font-size: em(14);
   }
 }
 
@@ -324,8 +336,13 @@ figure {
   margin: 12px 0 0;
 }
 
+.sidebar .cast li {
+  margin: 0 0 12px;
+}
+
 .cast li strong {
   display: block;
+  line-height: line(24, 14);
 }
 
 .cast li span {
