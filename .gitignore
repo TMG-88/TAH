@@ -6,3 +6,4 @@ dist
 gulpfile.js
 css
 *.yml
+.idea
