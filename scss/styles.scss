@@ -300,8 +300,16 @@ figure {
   letter-spacing: 1px;
 }
 
-.sidebar .cast  {
-  margin: 12px 0 24px;
+.cast  {
+  margin: 12px 0 0;
+}
+
+.cast li strong {
+  display: block;
+}
+
+.cast li span {
+  font-style: italic;
 }
 
 /* footer
