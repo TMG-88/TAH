@@ -241,6 +241,11 @@ nav[role='navigation'] {
 
 article {
   margin-bottom: 72px;
+
+  small {
+    font-size: em(14, 16);  
+    line-height: line(24, 14); 
+  }
 }
 
 figure {
