@@ -252,6 +252,21 @@ figure {
   }
 }
 
+.songs {
+  margin: 12px 0 48px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+
+.songs a:link, .main a:visited {
+  text-decoration: none;
+}
+
+.songs a:visited {
+  color: #f13228;
+}
+
 /* sidebar styles */
 
 .sidebar ul {
