@@ -136,7 +136,7 @@ footer[role='contentinfo'] {
 
 header[role='banner'] {
   border-bottom: 2px solid rgba(68, 68, 68, .1);
-  margin-bottom: em(24, 16);
+  margin-bottom: em(30, 16);
 }
 
 /* logo */
@@ -181,7 +181,7 @@ nav[role='navigation'] {
         transform: uppercase;
       }
       letter-spacing: 3px;
-      line-height: line(20, 16);
+      line-height: line(18, 16);
 	    
       strong {
         display: block;
