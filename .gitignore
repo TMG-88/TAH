@@ -7,3 +7,4 @@ gulpfile.js
 css
 *.yml
 .idea
+settings.json
