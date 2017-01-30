@@ -7,4 +7,9 @@ gulpfile.js
 css
 *.yml
 .idea
+<<<<<<< HEAD
 .vscode
+=======
+settings.json
+.vscode
+>>>>>>> 6a21ac662f30cc44a9ff0703fe1615c987853782
