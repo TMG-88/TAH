@@ -376,15 +376,6 @@ figure img {
 	max-width: 100%;
 }
 
-/* self-clear floats */
-	
-/*header[role="banner"]:after {
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
-}*/
 
 /* misc 
 ----------------------------------------------------- */
